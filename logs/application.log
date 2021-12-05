@@ -1,0 +1,141 @@
+2021-12-05 11:50:20 INFO  c.e.MdcFilterApplication:55 [] - Starting MdcFilterApplication using Java 1.8.0_292 on parwezli-ThinkPad-L440 with PID 6774 (/home/parwezli/Desktop/MDCFilter/target/classes started by parwezli in /home/parwezli/Desktop/MDCFilter)
+2021-12-05 11:50:20 INFO  c.e.MdcFilterApplication:635 [] - No active profile set, falling back to default profiles: default
+2021-12-05 11:50:20 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-05 11:50:20 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-05 11:50:22 INFO  o.s.b.w.e.t.TomcatWebServer:108 [] - Tomcat initialized with port(s): 6677 (http)
+2021-12-05 11:50:22 INFO  o.a.c.c.StandardService:173 [] - Starting service [Tomcat]
+2021-12-05 11:50:22 INFO  o.a.c.c.StandardEngine:173 [] - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-05 11:50:22 INFO  o.a.c.c.C.[.[.[/]:173 [] - Initializing Spring embedded WebApplicationContext
+2021-12-05 11:50:22 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 [] - Root WebApplicationContext: initialization completed in 1927 ms
+2021-12-05 11:50:23 INFO  o.s.b.d.a.OptionalLiveReloadServer:58 [] - LiveReload server is running on port 35729
+2021-12-05 11:50:23 INFO  o.s.b.w.e.t.TomcatWebServer:220 [] - Tomcat started on port(s): 6677 (http) with context path ''
+2021-12-05 11:50:23 INFO  c.e.MdcFilterApplication:61 [] - Started MdcFilterApplication in 4.134 seconds (JVM running for 5.798)
+2021-12-05 11:51:03 INFO  c.e.MdcFilterApplication:55 [] - Starting MdcFilterApplication using Java 1.8.0_292 on parwezli-ThinkPad-L440 with PID 6919 (/home/parwezli/Desktop/MDCFilter/target/classes started by parwezli in /home/parwezli/Desktop/MDCFilter)
+2021-12-05 11:51:03 INFO  c.e.MdcFilterApplication:635 [] - No active profile set, falling back to default profiles: default
+2021-12-05 11:51:03 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-05 11:51:03 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-05 11:51:05 INFO  o.s.b.w.e.t.TomcatWebServer:108 [] - Tomcat initialized with port(s): 6677 (http)
+2021-12-05 11:51:05 INFO  o.a.c.c.StandardService:173 [] - Starting service [Tomcat]
+2021-12-05 11:51:05 INFO  o.a.c.c.StandardEngine:173 [] - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-05 11:51:05 INFO  o.a.c.c.C.[.[.[/]:173 [] - Initializing Spring embedded WebApplicationContext
+2021-12-05 11:51:05 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 [] - Root WebApplicationContext: initialization completed in 2323 ms
+2021-12-05 11:51:06 INFO  o.s.b.d.a.OptionalLiveReloadServer:58 [] - LiveReload server is running on port 35729
+2021-12-05 11:51:06 INFO  o.s.b.w.e.t.TomcatWebServer:220 [] - Tomcat started on port(s): 6677 (http) with context path ''
+2021-12-05 11:51:06 INFO  c.e.MdcFilterApplication:61 [] - Started MdcFilterApplication in 4.5 seconds (JVM running for 5.329)
+2021-12-05 11:51:42 INFO  o.a.c.c.C.[.[.[/]:173 [] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-05 11:51:42 INFO  o.s.w.s.DispatcherServlet:525 [] - Initializing Servlet 'dispatcherServlet'
+2021-12-05 11:51:42 INFO  o.s.w.s.DispatcherServlet:547 [] - Completed initialization in 1 ms
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:70 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> POST /student/save
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:76 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> host: localhost:6677
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:76 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> connection: keep-alive
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:76 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> content-length: 109
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:76 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> sec-ch-ua: "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:76 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> cache-control: no-cache
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:76 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> content-type: application/json
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:76 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> sec-ch-ua-mobile: ?0
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:76 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:76 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> postman-token: 16c43abc-0ef9-f3a5-ca49-ae3feee054a1
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:76 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> accept: */*
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:76 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:76 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> sec-fetch-site: none
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:76 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> sec-fetch-mode: cors
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:76 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> sec-fetch-dest: empty
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:76 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> accept-encoding: gzip, deflate, br
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:76 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> accept-language: en-US,en;q=0.9
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:77 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|>
+2021-12-05 11:51:42 INFO  c.e.a.Transaction:30 [C4DE7034590442A9804F89146598B0FF] - work before transaction :: 1638684402848
+2021-12-05 11:51:42 INFO  c.e.a.Transaction:30 [C4DE7034590442A9804F89146598B0FF] - work before transaction :: 1638684402860
+2021-12-05 11:51:42 INFO  c.e.s.StudentService:33 [C4DE7034590442A9804F89146598B0FF] - save successfully.....
+2021-12-05 11:51:42 INFO  c.e.a.Transaction:34 [C4DE7034590442A9804F89146598B0FF] - method work successfully :: 
+2021-12-05 11:51:42 INFO  c.e.a.Transaction:44 [C4DE7034590442A9804F89146598B0FF] - method execution time taken :: 18 
+2021-12-05 11:51:42 INFO  c.e.a.Transaction:45 [C4DE7034590442A9804F89146598B0FF] - class:: StudentService ,method:: save: parameters : [Student(studentId=144, studentName=samp, studentAddress=pokhara, studnetSchool=ptu, status=1)] : response : ServerResponse(success=true, httpStatus=201 CREATED, message=successfully added new student, timestamp=2021-12-05T11:51:42.878, data=null) executed in 18 ms,
+2021-12-05 11:51:42 INFO  c.e.a.Transaction:34 [C4DE7034590442A9804F89146598B0FF] - method work successfully :: 
+2021-12-05 11:51:42 INFO  c.e.a.Transaction:44 [C4DE7034590442A9804F89146598B0FF] - method execution time taken :: 35 
+2021-12-05 11:51:42 INFO  c.e.a.Transaction:45 [C4DE7034590442A9804F89146598B0FF] - class:: StudentController ,method:: save: parameters : [Student(studentId=144, studentName=samp, studentAddress=pokhara, studnetSchool=ptu, status=1)] : response : <201 CREATED Created,ServerResponse(success=true, httpStatus=201 CREATED, message=successfully added new student, timestamp=2021-12-05T11:51:42.878, data=null),[]> executed in 35 ms,
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:106 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> {
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:106 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> 	"studentId":144,
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:106 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> 	"studentName":"samp",
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:106 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> 	"studentAddress":"pokhara",
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:106 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> 	"studnetSchool":"ptu",
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:106 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> 	"status":1
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:106 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|> }
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:89 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|< 201 Created
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:92 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|< correlationId: C4DE7034590442A9804F89146598B0FF
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:93 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|<
+2021-12-05 11:51:42 INFO  c.e.c.s.StubLogginFilter:106 [C4DE7034590442A9804F89146598B0FF] - 0:0:0:0:0:0:0:1|< {"success":true,"httpStatus":"CREATED","message":"successfully added new student","timestamp":"05-12-2021 11:51:42","data":null}
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:70 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> POST /student/save
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> host: localhost:6677
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> connection: keep-alive
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> content-length: 109
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> sec-ch-ua: "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> cache-control: no-cache
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> content-type: application/json
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> sec-ch-ua-mobile: ?0
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> postman-token: 2b0c081b-ebfc-d22d-7f50-1bfc3576097e
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> accept: */*
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> sec-fetch-site: none
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> sec-fetch-mode: cors
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> sec-fetch-dest: empty
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> accept-encoding: gzip, deflate, br
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> accept-language: en-US,en;q=0.9
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:77 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|>
+2021-12-05 11:52:06 INFO  c.e.a.Transaction:30 [D66A32BF59F343EBA8F5D0A1B44628D3] - work before transaction :: 1638684426279
+2021-12-05 11:52:06 INFO  c.e.a.Transaction:30 [D66A32BF59F343EBA8F5D0A1B44628D3] - work before transaction :: 1638684426280
+2021-12-05 11:52:06 INFO  c.e.s.StudentService:33 [D66A32BF59F343EBA8F5D0A1B44628D3] - save successfully.....
+2021-12-05 11:52:06 INFO  c.e.a.Transaction:34 [D66A32BF59F343EBA8F5D0A1B44628D3] - method work successfully :: 
+2021-12-05 11:52:06 INFO  c.e.a.Transaction:44 [D66A32BF59F343EBA8F5D0A1B44628D3] - method execution time taken :: 1 
+2021-12-05 11:52:06 INFO  c.e.a.Transaction:45 [D66A32BF59F343EBA8F5D0A1B44628D3] - class:: StudentService ,method:: save: parameters : [Student(studentId=144, studentName=samp, studentAddress=pokhara, studnetSchool=ptu, status=1)] : response : ServerResponse(success=true, httpStatus=201 CREATED, message=successfully added new student, timestamp=2021-12-05T11:52:06.281, data=null) executed in 1 ms,
+2021-12-05 11:52:06 INFO  c.e.a.Transaction:34 [D66A32BF59F343EBA8F5D0A1B44628D3] - method work successfully :: 
+2021-12-05 11:52:06 INFO  c.e.a.Transaction:44 [D66A32BF59F343EBA8F5D0A1B44628D3] - method execution time taken :: 3 
+2021-12-05 11:52:06 INFO  c.e.a.Transaction:45 [D66A32BF59F343EBA8F5D0A1B44628D3] - class:: StudentController ,method:: save: parameters : [Student(studentId=144, studentName=samp, studentAddress=pokhara, studnetSchool=ptu, status=1)] : response : <201 CREATED Created,ServerResponse(success=true, httpStatus=201 CREATED, message=successfully added new student, timestamp=2021-12-05T11:52:06.281, data=null),[]> executed in 3 ms,
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:106 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> {
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:106 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> 	"studentId":144,
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:106 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> 	"studentName":"samp",
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:106 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> 	"studentAddress":"pokhara",
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:106 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> 	"studnetSchool":"ptu",
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:106 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> 	"status":1
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:106 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|> }
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:89 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|< 201 Created
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:92 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|< correlationId: D66A32BF59F343EBA8F5D0A1B44628D3
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:93 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|<
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:106 [D66A32BF59F343EBA8F5D0A1B44628D3] - 0:0:0:0:0:0:0:1|< {"success":true,"httpStatus":"CREATED","message":"successfully added new student","timestamp":"05-12-2021 11:52:06","data":null}
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:70 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> POST /student/save
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> host: localhost:6677
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> connection: keep-alive
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> content-length: 109
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> sec-ch-ua: "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> cache-control: no-cache
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> content-type: application/json
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> sec-ch-ua-mobile: ?0
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> postman-token: 7ca8e68d-495c-14fb-b945-8aa82f14ad1e
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> accept: */*
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> sec-fetch-site: none
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> sec-fetch-mode: cors
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> sec-fetch-dest: empty
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> accept-encoding: gzip, deflate, br
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:76 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> accept-language: en-US,en;q=0.9
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:77 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|>
+2021-12-05 11:52:06 INFO  c.e.a.Transaction:30 [788150CAA14A449D9878F9583958B547] - work before transaction :: 1638684426737
+2021-12-05 11:52:06 INFO  c.e.a.Transaction:30 [788150CAA14A449D9878F9583958B547] - work before transaction :: 1638684426739
+2021-12-05 11:52:06 INFO  c.e.s.StudentService:33 [788150CAA14A449D9878F9583958B547] - save successfully.....
+2021-12-05 11:52:06 INFO  c.e.a.Transaction:34 [788150CAA14A449D9878F9583958B547] - method work successfully :: 
+2021-12-05 11:52:06 INFO  c.e.a.Transaction:44 [788150CAA14A449D9878F9583958B547] - method execution time taken :: 2 
+2021-12-05 11:52:06 INFO  c.e.a.Transaction:45 [788150CAA14A449D9878F9583958B547] - class:: StudentService ,method:: save: parameters : [Student(studentId=144, studentName=samp, studentAddress=pokhara, studnetSchool=ptu, status=1)] : response : ServerResponse(success=true, httpStatus=201 CREATED, message=successfully added new student, timestamp=2021-12-05T11:52:06.740, data=null) executed in 2 ms,
+2021-12-05 11:52:06 INFO  c.e.a.Transaction:34 [788150CAA14A449D9878F9583958B547] - method work successfully :: 
+2021-12-05 11:52:06 INFO  c.e.a.Transaction:44 [788150CAA14A449D9878F9583958B547] - method execution time taken :: 6 
+2021-12-05 11:52:06 INFO  c.e.a.Transaction:45 [788150CAA14A449D9878F9583958B547] - class:: StudentController ,method:: save: parameters : [Student(studentId=144, studentName=samp, studentAddress=pokhara, studnetSchool=ptu, status=1)] : response : <201 CREATED Created,ServerResponse(success=true, httpStatus=201 CREATED, message=successfully added new student, timestamp=2021-12-05T11:52:06.740, data=null),[]> executed in 6 ms,
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:106 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> {
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:106 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> 	"studentId":144,
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:106 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> 	"studentName":"samp",
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:106 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> 	"studentAddress":"pokhara",
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:106 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> 	"studnetSchool":"ptu",
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:106 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> 	"status":1
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:106 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|> }
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:89 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|< 201 Created
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:92 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|< correlationId: 788150CAA14A449D9878F9583958B547
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:93 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|<
+2021-12-05 11:52:06 INFO  c.e.c.s.StubLogginFilter:106 [788150CAA14A449D9878F9583958B547] - 0:0:0:0:0:0:0:1|< {"success":true,"httpStatus":"CREATED","message":"successfully added new student","timestamp":"05-12-2021 11:52:06","data":null}
