@@ -1823,3 +1823,135 @@ Caused by: java.lang.IllegalArgumentException: Cannot subclass final class org.s
 2021-12-05 12:36:04 INFO  c.e.c.s.StubLogginFilter:92 [6136FB10D9B14748ADB0ED572B3B695E] - 0:0:0:0:0:0:0:1|< correlationId: 6136FB10D9B14748ADB0ED572B3B695E
 2021-12-05 12:36:04 INFO  c.e.c.s.StubLogginFilter:93 [6136FB10D9B14748ADB0ED572B3B695E] - 0:0:0:0:0:0:0:1|<
 2021-12-05 12:36:04 INFO  c.e.c.s.StubLogginFilter:106 [6136FB10D9B14748ADB0ED572B3B695E] - 0:0:0:0:0:0:0:1|< {"success":true,"httpStatus":"OK","message":"list of student","timestamp":"05-12-2021 12:36:03","data":[{"studentId":11,"studentName":"parwez ali","studentAddress":"biratnagar","studnetSchool":"orchid","status":1},{"studentId":22,"studentName":"Nasim aktar","studentAddress":"janakpur","studnetSchool":"arniko","status":0}]}
+2021-12-05 12:39:52 INFO  c.e.MdcFilterApplication:55 [] - Starting MdcFilterApplication using Java 1.8.0_292 on parwezli-ThinkPad-L440 with PID 12740 (/home/parwezli/Desktop/MDCFilter/target/classes started by parwezli in /home/parwezli/Desktop/MDCFilter)
+2021-12-05 12:39:52 INFO  c.e.MdcFilterApplication:635 [] - No active profile set, falling back to default profiles: default
+2021-12-05 12:39:52 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-05 12:39:52 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-05 12:39:54 INFO  o.s.b.w.e.t.TomcatWebServer:108 [] - Tomcat initialized with port(s): 6677 (http)
+2021-12-05 12:39:54 INFO  o.a.c.c.StandardService:173 [] - Starting service [Tomcat]
+2021-12-05 12:39:54 INFO  o.a.c.c.StandardEngine:173 [] - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-05 12:39:54 INFO  o.a.c.c.C.[.[.[/]:173 [] - Initializing Spring embedded WebApplicationContext
+2021-12-05 12:39:54 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 [] - Root WebApplicationContext: initialization completed in 2017 ms
+2021-12-05 12:39:55 INFO  o.s.b.d.a.OptionalLiveReloadServer:58 [] - LiveReload server is running on port 35729
+2021-12-05 12:39:55 INFO  o.s.b.w.e.t.TomcatWebServer:220 [] - Tomcat started on port(s): 6677 (http) with context path ''
+2021-12-05 12:39:55 INFO  c.e.MdcFilterApplication:61 [] - Started MdcFilterApplication in 4.031 seconds (JVM running for 4.935)
+2021-12-05 12:39:59 INFO  o.a.c.c.C.[.[.[/]:173 [] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-05 12:39:59 INFO  o.s.w.s.DispatcherServlet:525 [] - Initializing Servlet 'dispatcherServlet'
+2021-12-05 12:39:59 INFO  o.s.w.s.DispatcherServlet:547 [] - Completed initialization in 2 ms
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:70 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|> GET /student/getall
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:76 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|> host: localhost:6677
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:76 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|> connection: keep-alive
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:76 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|> sec-ch-ua: "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:76 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|> cache-control: no-cache
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:76 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|> content-type: application/json
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:76 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|> sec-ch-ua-mobile: ?0
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:76 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|> user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:76 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|> postman-token: 42f740a0-f0f7-7050-b03c-dffdb3275de9
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:76 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|> accept: */*
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:76 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|> sec-fetch-site: none
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:76 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|> sec-fetch-mode: cors
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:76 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|> sec-fetch-dest: empty
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:76 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|> accept-encoding: gzip, deflate, br
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:76 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|> accept-language: en-US,en;q=0.9
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:77 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|>
+2021-12-05 12:39:59 INFO  c.e.a.Transaction:30 [734E092C93D34F06A665294618C7B377] - work before transaction :: 1638687299689
+2021-12-05 12:39:59 INFO  c.e.a.Transaction:30 [734E092C93D34F06A665294618C7B377] - work before transaction :: 1638687299699
+2021-12-05 12:39:59 INFO  c.e.a.Transaction:30 [734E092C93D34F06A665294618C7B377] - work before transaction :: 1638687299707
+2021-12-05 12:39:59 INFO  c.e.a.Transaction:34 [734E092C93D34F06A665294618C7B377] - method work successfully :: 
+2021-12-05 12:39:59 INFO  c.e.a.Transaction:44 [734E092C93D34F06A665294618C7B377] - method execution time taken :: 8 
+2021-12-05 12:39:59 INFO  c.e.a.Transaction:45 [734E092C93D34F06A665294618C7B377] - class:: Deb ,method:: go: parameters : [hi bro...] : response : how are you bro.... executed in 8 ms,
+2021-12-05 12:39:59 INFO  c.e.s.StudentService:48 [734E092C93D34F06A665294618C7B377] - fetch successfull..
+2021-12-05 12:39:59 INFO  c.e.a.Transaction:34 [734E092C93D34F06A665294618C7B377] - method work successfully :: 
+2021-12-05 12:39:59 INFO  c.e.a.Transaction:44 [734E092C93D34F06A665294618C7B377] - method execution time taken :: 27 
+2021-12-05 12:39:59 INFO  c.e.a.Transaction:45 [734E092C93D34F06A665294618C7B377] - class:: StudentService ,method:: getAll: parameters : [] : response : ServerResponse(success=true, httpStatus=200 OK, message=list of student, timestamp=2021-12-05T12:39:59.725, data=[Student(studentId=11, studentName=parwez ali, studentAddress=biratnagar, studnetSchool=orchid, status=1), Student(studentId=22, studentName=Nasim aktar, studentAddress=janakpur, studnetSchool=arniko, status=0)]) executed in 27 ms,
+2021-12-05 12:39:59 INFO  c.e.a.Transaction:34 [734E092C93D34F06A665294618C7B377] - method work successfully :: 
+2021-12-05 12:39:59 INFO  c.e.a.Transaction:44 [734E092C93D34F06A665294618C7B377] - method execution time taken :: 44 
+2021-12-05 12:39:59 INFO  c.e.a.Transaction:45 [734E092C93D34F06A665294618C7B377] - class:: StudentController ,method:: getAllStudent: parameters : [] : response : <200 OK OK,ServerResponse(success=true, httpStatus=200 OK, message=list of student, timestamp=2021-12-05T12:39:59.725, data=[Student(studentId=11, studentName=parwez ali, studentAddress=biratnagar, studnetSchool=orchid, status=1), Student(studentId=22, studentName=Nasim aktar, studentAddress=janakpur, studnetSchool=arniko, status=0)]),[]> executed in 44 ms,
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:89 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|< 200 OK
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:92 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|< correlationId: 734E092C93D34F06A665294618C7B377
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:93 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|<
+2021-12-05 12:39:59 INFO  c.e.c.s.StubLogginFilter:106 [734E092C93D34F06A665294618C7B377] - 0:0:0:0:0:0:0:1|< {"success":true,"httpStatus":"OK","message":"list of student","timestamp":"05-12-2021 12:39:59","data":[{"studentId":11,"studentName":"parwez ali","studentAddress":"biratnagar","studnetSchool":"orchid","status":1},{"studentId":22,"studentName":"Nasim aktar","studentAddress":"janakpur","studnetSchool":"arniko","status":0}]}
+2021-12-05 12:47:52 INFO  c.e.MdcFilterApplication:55 [] - Starting MdcFilterApplication using Java 1.8.0_292 on parwezli-ThinkPad-L440 with PID 13504 (/home/parwezli/Desktop/MDCFilter/target/classes started by parwezli in /home/parwezli/Desktop/MDCFilter)
+2021-12-05 12:47:52 INFO  c.e.MdcFilterApplication:635 [] - No active profile set, falling back to default profiles: default
+2021-12-05 12:47:52 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-05 12:47:52 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-05 12:47:54 INFO  o.s.b.w.e.t.TomcatWebServer:108 [] - Tomcat initialized with port(s): 6677 (http)
+2021-12-05 12:47:54 INFO  o.a.c.c.StandardService:173 [] - Starting service [Tomcat]
+2021-12-05 12:47:54 INFO  o.a.c.c.StandardEngine:173 [] - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-05 12:47:54 INFO  o.a.c.c.C.[.[.[/]:173 [] - Initializing Spring embedded WebApplicationContext
+2021-12-05 12:47:54 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 [] - Root WebApplicationContext: initialization completed in 1821 ms
+2021-12-05 12:47:55 INFO  o.s.b.d.a.OptionalLiveReloadServer:58 [] - LiveReload server is running on port 35729
+2021-12-05 12:47:55 INFO  o.s.b.w.e.t.TomcatWebServer:220 [] - Tomcat started on port(s): 6677 (http) with context path ''
+2021-12-05 12:47:55 INFO  c.e.MdcFilterApplication:61 [] - Started MdcFilterApplication in 3.845 seconds (JVM running for 4.67)
+2021-12-05 12:48:28 INFO  c.e.MdcFilterApplication:55 [] - Starting MdcFilterApplication using Java 1.8.0_292 on parwezli-ThinkPad-L440 with PID 13624 (/home/parwezli/Desktop/MDCFilter/target/classes started by parwezli in /home/parwezli/Desktop/MDCFilter)
+2021-12-05 12:48:28 INFO  c.e.MdcFilterApplication:635 [] - No active profile set, falling back to default profiles: default
+2021-12-05 12:48:28 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-05 12:48:28 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-05 12:48:30 INFO  o.s.b.w.e.t.TomcatWebServer:108 [] - Tomcat initialized with port(s): 6677 (http)
+2021-12-05 12:48:30 INFO  o.a.c.c.StandardService:173 [] - Starting service [Tomcat]
+2021-12-05 12:48:30 INFO  o.a.c.c.StandardEngine:173 [] - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-05 12:48:30 INFO  o.a.c.c.C.[.[.[/]:173 [] - Initializing Spring embedded WebApplicationContext
+2021-12-05 12:48:30 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 [] - Root WebApplicationContext: initialization completed in 2221 ms
+2021-12-05 12:48:31 INFO  o.s.b.d.a.OptionalLiveReloadServer:58 [] - LiveReload server is running on port 35729
+2021-12-05 12:48:31 INFO  o.s.b.w.e.t.TomcatWebServer:220 [] - Tomcat started on port(s): 6677 (http) with context path ''
+2021-12-05 12:48:31 INFO  c.e.MdcFilterApplication:61 [] - Started MdcFilterApplication in 4.236 seconds (JVM running for 5.046)
+2021-12-05 12:49:13 INFO  c.e.MdcFilterApplication:55 [] - Starting MdcFilterApplication using Java 1.8.0_292 on parwezli-ThinkPad-L440 with PID 13758 (/home/parwezli/Desktop/MDCFilter/target/classes started by parwezli in /home/parwezli/Desktop/MDCFilter)
+2021-12-05 12:49:13 INFO  c.e.MdcFilterApplication:635 [] - No active profile set, falling back to default profiles: default
+2021-12-05 12:49:13 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-05 12:49:13 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-05 12:49:15 INFO  o.s.b.w.e.t.TomcatWebServer:108 [] - Tomcat initialized with port(s): 6677 (http)
+2021-12-05 12:49:15 INFO  o.a.c.c.StandardService:173 [] - Starting service [Tomcat]
+2021-12-05 12:49:15 INFO  o.a.c.c.StandardEngine:173 [] - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-05 12:49:16 INFO  o.a.c.c.C.[.[.[/]:173 [] - Initializing Spring embedded WebApplicationContext
+2021-12-05 12:49:16 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 [] - Root WebApplicationContext: initialization completed in 2677 ms
+2021-12-05 12:49:16 INFO  o.s.b.d.a.OptionalLiveReloadServer:58 [] - LiveReload server is running on port 35729
+2021-12-05 12:49:16 INFO  o.s.b.w.e.t.TomcatWebServer:220 [] - Tomcat started on port(s): 6677 (http) with context path ''
+2021-12-05 12:49:17 INFO  c.e.MdcFilterApplication:61 [] - Started MdcFilterApplication in 4.743 seconds (JVM running for 5.556)
+2021-12-05 12:51:41 INFO  c.e.MdcFilterApplication:55 [] - Starting MdcFilterApplication using Java 1.8.0_292 on parwezli-ThinkPad-L440 with PID 13932 (/home/parwezli/Desktop/MDCFilter/target/classes started by parwezli in /home/parwezli/Desktop/MDCFilter)
+2021-12-05 12:51:41 INFO  c.e.MdcFilterApplication:635 [] - No active profile set, falling back to default profiles: default
+2021-12-05 12:51:41 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-05 12:51:41 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-05 12:51:43 INFO  o.s.b.w.e.t.TomcatWebServer:108 [] - Tomcat initialized with port(s): 6677 (http)
+2021-12-05 12:51:43 INFO  o.a.c.c.StandardService:173 [] - Starting service [Tomcat]
+2021-12-05 12:51:43 INFO  o.a.c.c.StandardEngine:173 [] - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-05 12:51:43 INFO  o.a.c.c.C.[.[.[/]:173 [] - Initializing Spring embedded WebApplicationContext
+2021-12-05 12:51:43 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 [] - Root WebApplicationContext: initialization completed in 2027 ms
+2021-12-05 12:51:44 INFO  o.s.b.d.a.OptionalLiveReloadServer:58 [] - LiveReload server is running on port 35729
+2021-12-05 12:51:44 INFO  o.s.b.w.e.t.TomcatWebServer:220 [] - Tomcat started on port(s): 6677 (http) with context path ''
+2021-12-05 12:51:44 INFO  c.e.MdcFilterApplication:61 [] - Started MdcFilterApplication in 3.803 seconds (JVM running for 4.483)
+2021-12-05 12:52:49 INFO  c.e.MdcFilterApplication:55 [] - Starting MdcFilterApplication using Java 1.8.0_292 on parwezli-ThinkPad-L440 with PID 14072 (/home/parwezli/Desktop/MDCFilter/target/classes started by parwezli in /home/parwezli/Desktop/MDCFilter)
+2021-12-05 12:52:49 INFO  c.e.MdcFilterApplication:635 [] - No active profile set, falling back to default profiles: default
+2021-12-05 12:52:49 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-05 12:52:49 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-05 12:52:51 INFO  o.s.b.w.e.t.TomcatWebServer:108 [] - Tomcat initialized with port(s): 6677 (http)
+2021-12-05 12:52:51 INFO  o.a.c.c.StandardService:173 [] - Starting service [Tomcat]
+2021-12-05 12:52:51 INFO  o.a.c.c.StandardEngine:173 [] - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-05 12:52:51 INFO  o.a.c.c.C.[.[.[/]:173 [] - Initializing Spring embedded WebApplicationContext
+2021-12-05 12:52:51 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 [] - Root WebApplicationContext: initialization completed in 2071 ms
+2021-12-05 12:52:52 INFO  o.s.b.d.a.OptionalLiveReloadServer:58 [] - LiveReload server is running on port 35729
+2021-12-05 12:52:52 INFO  o.s.b.w.e.t.TomcatWebServer:220 [] - Tomcat started on port(s): 6677 (http) with context path ''
+2021-12-05 12:52:52 INFO  c.e.MdcFilterApplication:61 [] - Started MdcFilterApplication in 4.153 seconds (JVM running for 4.897)
+2021-12-05 12:53:14 INFO  c.e.MdcFilterApplication:55 [] - Starting MdcFilterApplication using Java 1.8.0_292 on parwezli-ThinkPad-L440 with PID 14288 (/home/parwezli/Desktop/MDCFilter/target/classes started by parwezli in /home/parwezli/Desktop/MDCFilter)
+2021-12-05 12:53:14 INFO  c.e.MdcFilterApplication:635 [] - No active profile set, falling back to default profiles: default
+2021-12-05 12:53:15 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-05 12:53:15 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-05 12:53:16 INFO  o.s.b.w.e.t.TomcatWebServer:108 [] - Tomcat initialized with port(s): 6677 (http)
+2021-12-05 12:53:16 INFO  o.a.c.c.StandardService:173 [] - Starting service [Tomcat]
+2021-12-05 12:53:16 INFO  o.a.c.c.StandardEngine:173 [] - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-05 12:53:16 INFO  o.a.c.c.C.[.[.[/]:173 [] - Initializing Spring embedded WebApplicationContext
+2021-12-05 12:53:16 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 [] - Root WebApplicationContext: initialization completed in 1826 ms
+2021-12-05 12:53:17 INFO  o.s.b.d.a.OptionalLiveReloadServer:58 [] - LiveReload server is running on port 35729
+2021-12-05 12:53:17 INFO  o.s.b.w.e.t.TomcatWebServer:220 [] - Tomcat started on port(s): 6677 (http) with context path ''
+2021-12-05 12:53:17 INFO  c.e.MdcFilterApplication:61 [] - Started MdcFilterApplication in 4.033 seconds (JVM running for 4.975)
+2021-12-05 12:55:02 INFO  c.e.MdcFilterApplication:55 [] - Starting MdcFilterApplication using Java 1.8.0_292 on parwezli-ThinkPad-L440 with PID 14544 (/home/parwezli/Desktop/MDCFilter/target/classes started by parwezli in /home/parwezli/Desktop/MDCFilter)
+2021-12-05 12:55:02 INFO  c.e.MdcFilterApplication:635 [] - No active profile set, falling back to default profiles: default
+2021-12-05 12:55:02 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-05 12:55:02 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255 [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-05 12:55:04 INFO  o.s.b.w.e.t.TomcatWebServer:108 [] - Tomcat initialized with port(s): 6677 (http)
+2021-12-05 12:55:04 INFO  o.a.c.c.StandardService:173 [] - Starting service [Tomcat]
+2021-12-05 12:55:04 INFO  o.a.c.c.StandardEngine:173 [] - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-05 12:55:04 INFO  o.a.c.c.C.[.[.[/]:173 [] - Initializing Spring embedded WebApplicationContext
+2021-12-05 12:55:04 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:290 [] - Root WebApplicationContext: initialization completed in 1981 ms
+2021-12-05 12:55:05 INFO  o.s.b.d.a.OptionalLiveReloadServer:58 [] - LiveReload server is running on port 35729
+2021-12-05 12:55:05 INFO  o.s.b.w.e.t.TomcatWebServer:220 [] - Tomcat started on port(s): 6677 (http) with context path ''
+2021-12-05 12:55:05 INFO  c.e.MdcFilterApplication:61 [] - Started MdcFilterApplication in 4.02 seconds (JVM running for 4.738)
