@@ -7,14 +7,15 @@ import com.example.exception.BadRequestException;
 import com.example.exception.ResourceNotFoundException;
 import com.example.response.ResponseUtility;
 import com.example.response.ServerResponse;
+import com.example.util.Deb;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-@Service
 @Slf4j
+@Service
 public class StudentService {
 
     @Autowired

@@ -3,6 +3,7 @@ package com.example.core.config;
 import com.example.core.mdc.UniqueIdFilter;
 import com.example.core.stublogging.StubLogginFilter;
 import lombok.*;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -11,11 +12,10 @@ import org.springframework.context.annotation.Configuration;
 
 import org.springframework.core.annotation.Order;
 
-@Configuration
-@Setter
-@Getter
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Configuration
 public class ConfigurationFilter {
 
 	public static final String DEFAULT_HEADER_TOKEN = "correlationId";
